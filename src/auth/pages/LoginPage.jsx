@@ -1,5 +1,5 @@
-import { TextFields } from "@mui/icons-material"
-import { Grid, Typography } from "@mui/material"
+
+import { Grid, TextField, Typography } from "@mui/material"
 
 
 export const LoginPage = () => {
@@ -31,12 +31,10 @@ export const LoginPage = () => {
     </Grid>
 
     <Grid item>
-      <TextFields 
+      <TextField
       label="contraseña" 
       type ="Password"
       placeholder= 'contraseña'
-      
-      
       /> 
     </Grid>
     
