@@ -31,7 +31,7 @@ export const LoginPage = () => {
       /> 
     </Grid>
 
-    <Grid item xs ={12}>
+    <Grid item xs={12} sx={{mt:2}}>
       <TextField
       label="contraseña" 
       type ="Password"
