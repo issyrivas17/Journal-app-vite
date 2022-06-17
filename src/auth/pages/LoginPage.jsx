@@ -1,5 +1,5 @@
 
-import { Button, Grid, TextField, Typography } from "@mui/material"
+import { Button, Grid, TextField, Typography,Google } from "@mui/material"
 
 
 export const LoginPage = () => {
@@ -41,7 +41,7 @@ export const LoginPage = () => {
       /> 
     </Grid>
 
-    <Grid container spacing={2} sx={{mb:2, mt:2}}>
+    <Grid container spacing={2} sx={{mb:2, mt:1 }}>
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth> 
       Login 
@@ -50,7 +50,8 @@ export const LoginPage = () => {
 
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth > 
-      Login 
+     <Google/> 
+     Google
       </Button>
 
       </Grid>
