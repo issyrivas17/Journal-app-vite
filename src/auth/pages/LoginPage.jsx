@@ -1,5 +1,6 @@
 
-import { Button, Grid, TextField, Typography,Google } from "@mui/material"
+import { Button, Grid, TextField, Typography} from "@mui/material" 
+import {Google} from '@mui/icons-material' 
 
 
 export const LoginPage = () => {
@@ -50,8 +51,8 @@ export const LoginPage = () => {
 
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth > 
-     <Google/> 
-     Google
+      <Google/> 
+      Google 
       </Button>
 
       </Grid>
