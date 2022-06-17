@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material"
+import { Grid, Typography } from "@mui/material"
 
 
 export const LoginPage = () => {
@@ -15,7 +15,8 @@ export const LoginPage = () => {
    className= 'box-shadow'
    xs= {3} 
    sx= {{backgroundColor : 'white', padding: 3, borderRadius:2}}>  
-   
+
+   <Typography variant="h5" sx={{mb:1}}>Login</Typography> 
    </Grid> 
 
   </Grid>
