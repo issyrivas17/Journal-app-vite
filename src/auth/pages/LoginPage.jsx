@@ -1,6 +1,6 @@
 import { TextFields } from "@mui/icons-material"
 import { Grid, Typography } from "@mui/material"
-import moduleName from '';
+
 
 export const LoginPage = () => {
   return (
@@ -26,7 +26,7 @@ export const LoginPage = () => {
       label="Correo" 
       type ="email"
       placeholder= 'correo@google.com'
-      fullwidth
+      
       /> 
     </Grid>
 
@@ -35,7 +35,7 @@ export const LoginPage = () => {
       label="contraseña" 
       type ="Password"
       placeholder= 'contraseña'
-      fullwidth
+      
       
       /> 
     </Grid>
