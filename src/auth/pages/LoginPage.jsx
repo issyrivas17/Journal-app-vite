@@ -22,7 +22,7 @@ export const LoginPage = () => {
    <form>
     <Grid container > 
 
-    <Grid item>
+    <Grid item xs={12} sx={{mt:2}}>
       <TextField
       label="Correo" 
       type ="email"
