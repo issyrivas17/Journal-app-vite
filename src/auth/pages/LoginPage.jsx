@@ -21,6 +21,7 @@ export const LoginPage = () => {
 
    <form>
     <Grid container > 
+
     <Grid item>
       <TextField
       label="Correo" 
@@ -30,7 +31,7 @@ export const LoginPage = () => {
       /> 
     </Grid>
 
-    <Grid item>
+    <Grid item xs ={12}>
       <TextField
       label="contraseña" 
       type ="Password"
