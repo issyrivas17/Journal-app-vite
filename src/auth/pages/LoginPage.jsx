@@ -41,7 +41,7 @@ export const LoginPage = () => {
       /> 
     </Grid>
 
-    <Grid container spacing={2} sx={{mb:2}}>
+    <Grid container spacing={2} sx={{mb:2, mt:2}}>
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth> 
       Login 
