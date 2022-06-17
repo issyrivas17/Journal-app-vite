@@ -1,5 +1,5 @@
 
-import { Grid, TextField, Typography } from "@mui/material"
+import { Button, Grid, TextField, Typography } from "@mui/material"
 
 
 export const LoginPage = () => {
@@ -37,6 +37,15 @@ export const LoginPage = () => {
       type ="Password"
       placeholder= 'contraseña'
       /> 
+    </Grid>
+
+    <Grid container spacing = {2} sx={{mb:2}}>
+      <Grid item xs={12}>
+      <Button variant="contained" > 
+      Login 
+      </Button>
+
+      </Grid>
     </Grid>
     
     
