@@ -22,7 +22,7 @@ export const LoginPage = () => {
    <form>
     <Grid container > 
     <Grid item>
-      <TextFields 
+      <TextField
       label="Correo" 
       type ="email"
       placeholder= 'correo@google.com'
