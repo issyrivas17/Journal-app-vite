@@ -10,10 +10,10 @@ export const LoginPage = () => {
  alignItems = "center" 
  justifyContent="center" 
  sx= {{ minHeight : '100vh', backgroundColor:'primary.main', padding: 4}}
-
- 
- 
  >
+   <Grid item 
+   className= 'box-shadow' > 
+   </Grid> 
 
   </Grid>
   )
