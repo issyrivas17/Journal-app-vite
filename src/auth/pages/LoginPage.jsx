@@ -17,6 +17,24 @@ export const LoginPage = () => {
    sx= {{backgroundColor : 'white', padding: 3, borderRadius:2}}>  
 
    <Typography variant="h5" sx={{mb:1}}>Login</Typography> 
+   <form>
+    <Grid container > 
+    <Grid item>
+      <TextField 
+      label= "Correo" 
+      type = "email"
+      placeholder= 'correo@google.com'
+      fullwidth 
+      /> 
+    </Grid>
+    
+    
+    
+    </Grid>
+
+
+
+   </form>
    </Grid> 
 
   </Grid>
