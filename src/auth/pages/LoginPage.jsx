@@ -1,6 +1,6 @@
 import { TextFields } from "@mui/icons-material"
 import { Grid, Typography } from "@mui/material"
-
+import moduleName from '';
 
 export const LoginPage = () => {
   return (
@@ -13,7 +13,7 @@ export const LoginPage = () => {
  sx= {{ minHeight : '100vh', backgroundColor:'primary.main', padding: 4}}
  >
    <Grid item 
-   className= 'box-shadow'
+   className='box-shadow'
    xs= {3} 
    sx= {{backgroundColor : 'white', padding: 3, borderRadius:2}}>  
 
@@ -26,15 +26,17 @@ export const LoginPage = () => {
       label="Correo" 
       type ="email"
       placeholder= 'correo@google.com'
-      fullWidth
+      fullwidth
       /> 
     </Grid>
+
     <Grid item>
       <TextFields 
       label="contraseña" 
       type ="Password"
       placeholder= 'contraseña'
-      fullWidth
+      fullwidth
+      
       /> 
     </Grid>
     
