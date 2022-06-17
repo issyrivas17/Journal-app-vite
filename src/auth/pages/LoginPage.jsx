@@ -23,13 +23,20 @@ export const LoginPage = () => {
     <Grid container > 
     <Grid item>
       <TextFields 
-      label= "Correo" 
-      type = "email"
+      label="Correo" 
+      type ="email"
       placeholder= 'correo@google.com'
-      fullwidth 
+      fullWidth
       /> 
     </Grid>
-    
+    <Grid item>
+      <TextFields 
+      label="contraseña" 
+      type ="Password"
+      placeholder= 'contraseña'
+      fullWidth
+      /> 
+    </Grid>
     
     
     </Grid>
