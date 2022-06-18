@@ -52,7 +52,7 @@ export const LoginPage = () => {
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth > 
       <Google/> 
-      Google 
+      <Typography> Google </Typography>
       </Button>
 
       </Grid>
