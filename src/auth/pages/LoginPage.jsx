@@ -1,5 +1,5 @@
 
-import { Button, Grid, TextField, Typography} from "@mui/material" 
+import { Button, Grid, Link, TextField, Typography} from "@mui/material" 
 import {Google} from '@mui/icons-material' 
 
 
@@ -64,7 +64,10 @@ export const LoginPage = () => {
     </Grid>
 
     <Grid container direction='row' justifyContent= 'end'> 
+    <Link color = 'inherit' to="/auth/registrer"> 
     Crear una cuenta 
+    </Link>
+   
     </Grid>
 
    </form>
