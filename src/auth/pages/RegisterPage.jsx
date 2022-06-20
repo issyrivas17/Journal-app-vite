@@ -6,9 +6,18 @@ import { AuthLayout } from '../layout/AuthLayout';
 
 export const LoginPage = () => {
   return (  
-    <AuthLayout title= 'login' >
+    <AuthLayout title= 'Register' >
       <form>
     <Grid container > 
+    <Grid item xs={12} sx={{mt:2}}>
+      <TextField
+      label="Nombre completo" 
+      type ="text"
+      placeholder= 'Ismenia Rivas'
+      fullWidth
+      
+      /> 
+    </Grid>
 
     <Grid item xs={12} sx={{mt:2}}>
       <TextField
