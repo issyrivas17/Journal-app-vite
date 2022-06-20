@@ -41,16 +41,8 @@ export const RegisterPage = () => {
     <Grid container spacing={2} sx={{mb:2, mt:1 }}>
       <Grid item xs={12} sm={6}>
       <Button variant="contained" fullWidth> 
-      Login 
+      Crear cuenta 
       </Button>
-      </Grid>
-
-      <Grid item xs={12} sm={6}>
-      <Button variant="contained" fullWidth > 
-      <Google/> 
-      <Typography> Google </Typography>
-      </Button>
-
       </Grid>
 
 
