@@ -4,7 +4,7 @@ import {Google} from '@mui/icons-material'
 import { AuthLayout } from '../layout/AuthLayout';
 
 
-export const LoginPage = () => {
+export const RegisterPage = () => {
   return (  
     <AuthLayout title= 'Register' >
       <form>
