@@ -1,12 +1,13 @@
 import {Link as RouterLink} from 'react-router-dom';
 import { Button, Grid, Link, TextField, Typography} from "@mui/material" 
 import {Google} from '@mui/icons-material' 
+import { AuthLayout } from '../layout/AuthLayout';
 
 
 export const LoginPage = () => {
-  return (
-  
-   <form>
+  return (  
+    <AuthLayout title= 'login' >
+      <form>
     <Grid container > 
 
     <Grid item xs={12} sx={{mt:2}}>
@@ -50,15 +51,17 @@ export const LoginPage = () => {
     </Grid>
 
     <Grid container direction='row' justifyContent= 'end'> 
-    <Link component= {RouterLink} color = 'inherit' to="/auth/register"> 
+    <Link component= {RouterLink} color = 'inherit' to="/auth/registr"> 
     Crear una cuenta 
     </Link>
    
     </Grid>
 
    </form>
-   </Grid> 
 
-  </Grid>
+    </AuthLayout>
+
+  
+   
   )
 }
