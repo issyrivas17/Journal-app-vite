@@ -8,7 +8,7 @@ export const JournalLayout = ({children}) => {
   return (
  <Box sx={{display:'flex'}}>
 
-<NavBar/> 
+<NavBar drawerWidth={drawerWidth}/> 
 
   {/*Sidebar*/} 
 
