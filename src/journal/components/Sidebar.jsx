@@ -1,4 +1,5 @@
-import { Box, Divider, Drawer, Toolbar, Typography } from "@mui/material"
+import { TurnedInNot } from "@mui/icons-material"
+import { Box, Divider, Drawer, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
 
 
 export const Sidebar = ({drawerWidth = 240 }) => {
@@ -21,7 +22,21 @@ export const Sidebar = ({drawerWidth = 240 }) => {
              Ismenia Rivas 
             </Typography>
         </Toolbar> 
-        <Divider/>
+        <Divider/> 
+
+        <List>
+            {
+                ['Enero','Febrero','Marzo','Abril'].map ( text => 
+                    <ListItem key={text} disablePadding> 
+                    <ListItemButton>
+                        <TurnedInNot/> 
+                    </ListItemButton>
+
+                    </ListItem>
+
+                )
+            }
+        </List>
 
 
 
