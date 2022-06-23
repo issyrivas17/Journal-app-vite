@@ -1,4 +1,4 @@
-import { Toolbar, Typography } from "@mui/material"
+import { Box, Divider, Drawer, Toolbar, Typography } from "@mui/material"
 
 
 export const Sidebar = ({drawerWidth = 240 }) => {
@@ -9,7 +9,7 @@ export const Sidebar = ({drawerWidth = 240 }) => {
     > 
     
     <Drawer 
-    variant='permant'
+    variant='permanent'
     open
     sx={{
         display: {xs:'block'},
@@ -21,7 +21,7 @@ export const Sidebar = ({drawerWidth = 240 }) => {
              Ismenia Rivas 
             </Typography>
         </Toolbar> 
-        <Divider/> 
+        <Divider/>
 
 
 
