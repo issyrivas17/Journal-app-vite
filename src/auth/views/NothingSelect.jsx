@@ -13,7 +13,7 @@ export const NothingSelect = () => {
     sx= {{ minHeight: 'calc (100vh -110px)', backgroundColor:'primary.main'}}
    > 
    <Grid item xs={12}>
-    <StarOutline/> 
+    <StarOutline sx={{fontSize: 100, color: 'white'}}/>  
 
    </Grid>
 
