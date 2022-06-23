@@ -1,5 +1,5 @@
 import { TurnedInNot } from "@mui/icons-material"
-import { Box, Divider, Drawer, List, ListItem, ListItemButton, Toolbar, Typography } from "@mui/material"
+import { Box, Divider, Drawer, Grid, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography } from "@mui/material"
 
 
 export const Sidebar = ({drawerWidth = 240 }) => {
@@ -31,6 +31,10 @@ export const Sidebar = ({drawerWidth = 240 }) => {
                     <ListItemButton>
                         <TurnedInNot/> 
                     </ListItemButton>
+                    <Grid container>
+                        <ListItemText primary = {text} />
+                        <ListItemText secondary= {'Ad laboris ipsum nisi proident'} /> 
+                    </Grid>
 
                     </ListItem>
 
