@@ -1,7 +1,30 @@
 
 
-export const Sidebar = () => {
+export const Sidebar = ({drawerWidth = 240 }) => {
   return (
-    <div>Sidebar</div>
+    <Box 
+    component= 'nav' 
+    sx={{width: {sm:drawerWidth},flexShrink:{sm:0}}} 
+    > 
+    
+    <Drawer 
+    variant='permant'
+    open
+    sx={{
+        display: {xs:'block'},
+        '& .MuiDrawer-paper': {boxSizing: 'border-box',width: drawerWidth}
+    }}
+    
+    
+    >
+
+
+
+    </Drawer>
+    
+    
+    
+    
+    </Box>
   )
 }
