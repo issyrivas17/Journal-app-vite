@@ -1,5 +1,5 @@
 import { Button, Grid, TextField, Typography } from "@mui/material"
-import {SaveOutline} from '@mui/icons-material'
+import {SaveOutlined} from '@mui/icons-material'
 
 
 export const NoteView = () => {
@@ -12,7 +12,7 @@ export const NoteView = () => {
    <Grid item>
     <Button color='primary' sx={{padding:2}}> 
     
-   <SaveOutline sx={{fontSize:30,Mr:1}} /> 
+   <SaveOutlined sx={{fontSize:30,Mr:1}} /> 
    Guardar.
   </Button>
    </Grid> 
@@ -27,6 +27,18 @@ export const NoteView = () => {
     sx={{border:'none',mb:1}} 
     /> 
     
+    <Grid container> 
+
+    <TextField
+    type= "text" 
+    variant="filled"
+    fullWidth
+    multiline 
+    placeholder="¿Qué sucedió hoy?"
+   minRows={5} 
+    /> 
+    
+    </Grid>
    </Grid>
     
     
