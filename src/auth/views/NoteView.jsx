@@ -1,5 +1,6 @@
 import { Button, Grid, TextField, Typography } from "@mui/material"
 import {SaveOutlined} from '@mui/icons-material'
+import { ImageGallery } from "../../journal/components"
 
 
 export const NoteView = () => {
@@ -37,7 +38,7 @@ export const NoteView = () => {
     placeholder="¿Qué sucedió hoy?"
    minRows={5} 
     /> 
-    
+    <ImageGallery/> 
     </Grid>
    </Grid>
     
