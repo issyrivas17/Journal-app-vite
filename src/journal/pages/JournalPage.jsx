@@ -19,7 +19,7 @@ export const JournalPage = () => {
     size='large'
     sx={{
     color:'white',
-    background: 'error.main',
+    backgroundColor: 'error.main',
     ':hover':{backgroundColor:'error.main',opacity:0.9},
     position:'fixed', 
     right:50,
