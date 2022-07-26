@@ -18,7 +18,7 @@ export const NavBar = ({ drawerWidth = 240 }) => {
         edge= "start"
         sx={{mr:2,display:{sm: 'none'}}} 
         >
-            <MenuOutlined/> 
+            <MenuOutlined/>
         </IconButton>
         <Grid container direction= 'row' justifyContent= 'space-around' alignItems='center'>  
         <Typography variant='h4' noWrap component='div'>JournalApp </Typography>  

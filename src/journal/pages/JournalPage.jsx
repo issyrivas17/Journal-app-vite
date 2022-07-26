@@ -13,7 +13,8 @@ export const JournalPage = () => {
   return (
     <JournalLayout> 
    
-  <NothingSelect/>  
+ {/*  <NothingSelect/>   */} 
+ <NoteView/>
    
     <IconButton 
     size='large'
