@@ -13,7 +13,7 @@ export const authSlice = createSlice({
     login : (state,action) => {
 
     },
-    
+
     logout : (state,payload) => {
 
     },
@@ -26,4 +26,4 @@ export const authSlice = createSlice({
 
 
 // Action creators are generated for each case reducer function
-export const { increment } = authSlice.actions;
+export const { login,logout, checkingCredentials} = authSlice.actions; 
